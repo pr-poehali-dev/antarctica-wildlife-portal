@@ -99,3 +99,16 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Скрываем бейдж poehali.dev */
+.pp-badge {
+  display: none !important;
+}
+
+.pp-widget,
+.pp-widget-container,
+[class*="pp-widget"] {
+  display: none !important;
+  opacity: 0 !important;
+  visibility: hidden !important;
+}
